@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(118, 203, 224);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Flash Message Styles */
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Error (Danger) Message */
+.alert-danger {
+    background-color: red;
+    color: white;
+}
+
+/* Success Message */
+.alert-success {
+    background-color: green;
+    color: white;
+}
+
+/* Warning Message */
+.alert-warning {
+    background-color: orange;
+    color: white;
+}
